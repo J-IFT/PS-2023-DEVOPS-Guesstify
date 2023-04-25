@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guesstify</title>
+    <script
+        src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+        crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="client/css/style.css">
+</head>
+<body>
+    Pseudo : <input type="text" id="nickname"> <button id="saveNickname">Valider</button>
+
+    <!-- <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5Ln3tyqgmNzrTPPkmFkD4w?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> -->
+
+    <img src="" alt="" id="guessImg">
+    
+    Réponse : <input type="text" id="inputGuess"> <button id="buttonGuess">Valider</button>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client/js/client.js"></script>
+</body>
+</html>
