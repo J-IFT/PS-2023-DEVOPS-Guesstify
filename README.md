@@ -1,6 +1,13 @@
 # PS-2023-DEVOPS-Guesstify
 
-<<<<<<< HEAD
+*PS = Projet Scolaire*
+
+## 📚 Projet Scolaire | Guesstify
+
+Mars 2023
+
+Groupe : Juliette, Brice, Flavien, Loris & Jeremy
+
 ## Création de l'image Docker
 
 Construire l'image docker depuis la racine du projet :
@@ -16,14 +23,6 @@ Récupérer l'image depuis DockerHub
 Lancer l'image. Guesstify utilise le port 5000, si ce port est déjà utilisé par une autre application, publier ce port vers un port libre de la machine hôte.
 
 `docker run -d -p 5000:5000 --name guesstify lorispercin/guesstify`
-=======
-*PS = Projet Scolaire*
-
-## 📚 Projet Scolaire | Guesstify
-
-Mars 2023
-
-Groupe : Juliette, Brice, Flavien, Loris & Jeremy
 
 ### 📌 Consignes du projet :
 
