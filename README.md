@@ -6,7 +6,7 @@
 
 Mars 2023
 
-Groupe : Juliette, Brice, Flavien, Loris & Jeremy
+Groupe : Juliette, Flavien, Loris & Jeremy
 
 ## Création de l'image Docker
 
